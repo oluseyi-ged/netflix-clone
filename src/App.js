@@ -2,13 +2,12 @@ import "./App.css"
 import Row from "./Row"
 import requests from "./request"
 import Banner from "./Banner"
+import Nav from "./Nav"
 
 function App() {
   return (
     <div className="app">
-      {/* Navbar */}
-
-      {/* Banner */}
+      <Nav />
       <Banner />
 
       <Row

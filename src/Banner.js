@@ -35,7 +35,6 @@ function Banner() {
       }}
     >
       <div className="banner__content">
-        {/* background image */}
         <h1 className="banner__title">
           {movie?.title || movie?.name || movie?.original_name}
         </h1>
@@ -47,7 +46,6 @@ function Banner() {
         <h1 className="banner__description">
           {truncate(movie?.overview, 160)}
         </h1>
-        {/* description */}
       </div>
 
       <div className="banner--fadeBottom"></div>
